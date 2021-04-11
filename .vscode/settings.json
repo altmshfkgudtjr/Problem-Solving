@@ -1,0 +1,39 @@
+{
+	"todo-tree.tree.showBadges": true,
+	"todo-tree.general.tags": [
+		"BUG",
+		"FIXME",
+		"TODO",
+		"COMPLETE",
+	],
+	"todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "tasklist",
+      "iconColour": "#12b886",
+			"foreground": "#fff",
+      "background": "#12b886",
+      "gutterIcon": true
+    },
+    "FIXME": {
+      "icon": "tools",
+      "iconColour": "#ed8f09",
+      "foreground": "#fff",
+      "background": "#ed8f09",
+      "gutterIcon": true
+    },
+    "COMPLETE": {
+      "icon": "verified",
+      "iconColour": "#1c85ed",
+      "foreground": "#fff",
+      "background": "#1c85ed",
+      "gutterIcon": true
+    },
+    "BUG": {
+      "icon": "bug",
+      "iconColour": "#f2340f",
+      "foreground": "#fff",
+      "background": "#f2340f",
+      "gutterIcon": true
+    }
+	}
+}
