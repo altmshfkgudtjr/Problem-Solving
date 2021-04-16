@@ -33,7 +33,7 @@ class Node:
 
 # 	return answer
 
-# 큐버젼, 8개 틀리고 그냥 시간초과
+# 큐버젼
 def solution(a, edges):
 	if sum(a) != 0:
 		return -1
